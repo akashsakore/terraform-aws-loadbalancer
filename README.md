@@ -1,12 +1,12 @@
-### Terraform Jenkins Infrastructure on AWS
+## Terraform Jenkins Infrastructure on AWS
 
-## - Overview
+## Overview
 ```
 This project automates the provisioning of a complete Jenkins CI/CD environment on AWS using Terraform.
 It follows the Infrastructure as Code (IaC) principle — where networking, security groups, EC2 instance setup, and load balancing are all defined using Terraform modules.
 ```
 
-## - Project Architecture
+## Project Architecture
 
 Modules used:
 
@@ -16,7 +16,7 @@ Modules used:
 - Load Balancer – Deploys an Application Load Balancer (ALB) and attaches the Jenkins instance as the target.
 - Target Group – Manages target group registration for ALB and Jenkins instance.
 
-## - Tech Stack
+## Tech Stack
 
 - Terraform v1.9+
 - AWS Provider
@@ -27,7 +27,7 @@ Modules used:
 - Ubuntu 22.04
 
 
-## - Project Structure
+## Project Structure
 ```
 /
 │
