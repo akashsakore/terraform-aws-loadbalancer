@@ -9,7 +9,6 @@ terraform.tfstate.backup
 *.tfstate.*
 
 # Terraform variable files (often contain secrets)
-terraform.tfvars
 *.auto.tfvars
 
 # Sensitive key files

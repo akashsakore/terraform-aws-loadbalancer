@@ -1,0 +1,9 @@
+vpc_name = "my_vpc"
+vpc_cidr_block = "10.0.0.0/16"
+public_subnet_cidr = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnet_cidr = ["10.0.4.0/24", "10.0.5.0/24"]
+public_subnet_AZ = ["us-east-1a", "us-east-1b"]
+#ami_id = "ami-0360c520857e3138f"
+instance_type = "t2.micro"
+public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOyqxAS46ZGLxKlzJ2aUF0Ixj+aWuW0aQ8N0ypH02Ka4 akash@akash-pc"
+public_key_name = "ec2_instance_key"
