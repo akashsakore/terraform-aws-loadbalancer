@@ -29,29 +29,29 @@ Modules used:
 
 ## Project Structure
 ```
-/
-│
+.
+├── jenkins
+│   ├── jenkins-installer.sh
+│   └── main.tf
+├── load_balancer
+│   └── main.tf
+├── load_balencer_TG
+│   └── main.tf
 ├── main.tf
-├── variables.tf
-├── terraform.tfvars
+├── Networking
+│   └── main.tf
+├── Security_group
+│   └── main.tf
 ├── terraform.tfstate
-├── .gitignore
-│
-├── Networking/
-│   └── main.tf
-│
-├── Security_group/
-│   └── main.tf
-│
-├── jenkins/
-│   ├── main.tf
-│   └── jenkins-installer.sh
-│
-├── load_balancer/
-│   └── main.tf
-│
-└── load_balancer_TG/
-    └── main.tf
+├── terraform.tfstate.backup
+├── terraform.tfstate.d
+│   ├── dev
+│   └── stage
+│       ├── terraform.tfstate
+│       └── terraform.tfstate.backup
+├── terraform.tfvars
+└── variables.tf
+
 ```
 
 ## How to Use
